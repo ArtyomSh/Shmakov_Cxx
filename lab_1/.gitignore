@@ -1,0 +1,16 @@
+*.o
+*.exe
+*.out
+
+build/
+bin/
+obj/
+*.tmp
+
+*.user
+*.sublime-project
+*.sublime-workspace
+
+vcpkg/
+
+.DS_Store
