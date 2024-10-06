@@ -20,9 +20,9 @@ struct Config {
 
     cout << "Your config description: " << endl;
 
-    cout << "Count: " << count << std::endl;
+    cout << "Count: " << count << ";" << std::endl;
 
-    cout << "Result Type: " << result_type << std::endl;
+    cout << "Result Type: " << result_type << ";" << std::endl;
 
     cout << "Types: ";
     for (const auto &type : types) {
@@ -32,19 +32,19 @@ struct Config {
 
     cout << "Operations: ";
     for (const auto &operation : operations) {
-      cout << operation << " ";
+      cout << operation << ", ";
     }
     cout << endl;
 
     cout << "Order: ";
     for (const auto &ord : order) {
-      cout << ord << " ";
+      cout << ord << ", ";
     }
     cout << endl;
 
     cout << "Values: ";
     for (const auto &val : values) {
-      cout << val.dump(4) << " ";
+      cout << val.dump(4) << ", ";
     }
     cout << endl;
 
