@@ -1,0 +1,43 @@
+{
+    "count": 8,
+    "types": [
+        "short int",
+        "int",
+        "long int",
+        "long long int",
+        "float",
+        "double",
+        "long double",
+        "string"
+    ],
+    "values": [
+        1,
+        1,
+        1,
+        1,
+        2.0,
+        2.0,
+        2.0,
+        "test"
+    ],
+    "operations": [
+        "+",
+        "+",
+        "+",
+        "+",
+        "+",
+        "+",
+        "+"
+    ],
+    "order": [
+        5,
+        7,
+        4,
+        1,
+        6,
+        3,
+        8,
+        2
+    ],
+    "result_type": "string"
+}
